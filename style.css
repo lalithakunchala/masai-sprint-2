@@ -1,0 +1,42 @@
+    #bdy{
+        background-image:
+        url('https://images.unsplash.com/photo-1526294809464-859c524fafa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+        background-size: cover;
+        background-color: lawngreen;
+        color: lightcyan;
+}
+
+.centr{
+    text-align: center;
+    font-size: 40px;
+    height: 80px;
+}
+.white{
+    background-color: lightcyan;
+    width: 10%;
+    border-radius:50px;
+}
+.leftt{
+    float:left;
+}
+
+.bal{
+    font-size: 30px;
+    height: 200px;
+}
+.rd{
+    color: red;
+    font-style: italic ;
+}
+
+.floatrt{
+    float: right;
+    margin-left: 150px;
+}
+.font_size{
+    font-size: 20px;
+}
+
+.align_center{
+    justify-content: center;
+}

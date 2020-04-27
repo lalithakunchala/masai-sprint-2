@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Manager</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body id="bdy">
+        <div ><img class = white src="https://static.thenounproject.com/png/1123012-200.png"></div>
+        <h1 class="leftt">EXPENSE MANAGER</h1><br>
+        <br>
+        <div class="centr">
+            <form>
+            <label for = name>Name</label>
+            <input id="name" type="text">
+
+            <label for =salary>salary
+            <input id="salary" type="text">
+            </label>
+            <button id="save" type="submit">SAVE</button>
+            </form>
+        </div>
+        <br><br>
+        
+        <div class="centr">
+            <form>
+
+                <label for = "date">Date</label>
+                <input id="date" type="date">  
+                
+                <label for = expenditure>Amount</label>
+                <input id="expenditure" type="text">
+                <label for = selection></label>
+                <select id ="selection" >
+                    <option value="first">select</option>
+                    <option value="grocery">Grocery</option>
+                    <option value="current">Current Bill</option>
+                    <option value="fees">School Fees</option>
+                    <option value="paper">Paper Bill</option>
+                    <option value="petrol">petrol</option>
+                    <option value="entertainment">Entertainment</option>
+                </select>
+                <button id="update">UPDATE</button>
+            </form>
+        </div>
+        <br><br><br>
+        <div id="displayItem" class="floatrt bal">
+            <div id="g"></div>
+            <div id="cur"></div>
+            <div id="f"></div>
+            <div id="p"></div>
+            <div id="pt"></div>
+            <div id="e"></div>
+        </div>
+        <p id="displayItem2" class=" bal floatrt">
+        </p>
+
+        <div class="bal">
+            <p id="display">Name:</p>
+            <p id="totalsal">Total salary:0</p>
+            <p id="displayBal">Balance :0</p>
+        </div>
+        <div>
+        <div class="font_size">Expense details with date</div>
+        <button id="igrocery">Grocery</button>
+        <button id="icurrent">Current</button>
+        <button id="ischoolfees">School Fees</button>
+        <button id="ipaper">Paper</button>
+        <button id="ipetrol">Petrol</button>
+        <button id="ientertainment">Entertainment</button>
+        </div>
+
+        <script type="text/javascript" src="project.js"></script>
+    </body>
+</html>
