@@ -1,6 +1,8 @@
 <p>
   <h1 align="center">Expense Manager</h1>
 </p>
+
+![](https://raw.githubusercontent.com/lalithakunchala/masai-sprint-2/master/Expense.png)
   
 
 ## Instructions to run locally
