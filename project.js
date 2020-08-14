@@ -85,10 +85,14 @@
         if(selection=="grocery"){
             ogroc={Date:date.value,Amount:Number(expenditure)}
             grocery.push(ogroc);
+            console.log(grocery);
+            var ggg = 0
             for(var i=0; i<grocery.length; i++){
-                groc = groc + grocery[i].Amount;
+                
+                ggg = ggg + grocery[i].Amount;
             }
-            g.textContent = "Grocery:" + groc;
+            g.textContent = "Grocery:" + ggg;
+            groc = ggg
             var displayItem2 = document.getElementById("displayItem2");
             displayItem2.textContent = "";
             console.log(grocery);

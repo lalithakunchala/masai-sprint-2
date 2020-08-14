@@ -6,5 +6,8 @@
 
 ## Instructions to run locally
 
-git clone https://github.com/lalithakunchala/masai-sprint-2.git
 
+1. Clone the repo
+```
+git clone https://github.com/Charul090/HomeStay-Clone.git
+```
